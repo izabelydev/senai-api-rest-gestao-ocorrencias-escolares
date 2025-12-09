@@ -26,10 +26,13 @@ import java.net.URI;
 
 @RestController
 @RequestMapping("/usuario")
-@AllArgsConstructor
 public class UsuarioController implements UsuarioControllerPort {
 
     private final UsuarioService service;
+
+    public UsuarioController(UsuarioService service) {
+        this.service = service;
+    }
 
     @Override
     @PostMapping("/cadastrar")
