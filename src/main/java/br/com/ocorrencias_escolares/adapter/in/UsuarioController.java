@@ -7,7 +7,6 @@ import br.com.ocorrencias_escolares.adapter.in.dto.response.usuario.DadosDetalha
 import br.com.ocorrencias_escolares.application.core.service.UsuarioService;
 import br.com.ocorrencias_escolares.application.ports.in.UsuarioControllerPort;
 import jakarta.validation.Valid;
-import lombok.AllArgsConstructor;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -21,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
-
 import java.net.URI;
 
 @RestController
