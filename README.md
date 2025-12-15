@@ -1,5 +1,30 @@
 # Projeto Integrador – Sistema de Gestão de Ocorrências Escolares
 
+## Configuracoes
+
+
+| Tecnologia | Versao |
+|------------|--------|
+| Java       | 25.0.1 |
+| Maven      | 4.0.0  |
+| SpringBoot | 4.0.0  |
+
+
+Variaveis de ambiente:
+```
+DBN_NAME=dbnocorrenciasescolares
+DBN_PASSWORD=sua_senha
+DBN_URL=jdbc:mysql://localhost:3306/dbnocorrenciasescolares
+DBN_USER=seu_usuario
+```
+
+Configurar conexão com banco de dados:
+
+**Versao MySQL**: mysql-installer-web-community-8.0.43.0
+**Nome do banco de dados**: dbnocorrenciasescolares
+**Porta**: 3306
+
+
 ## 📌 Visão Geral
 Sistema web desenvolvido para **registro e acompanhamento de ocorrências escolares** em instituições de ensino. A plataforma promove organização, transparência e agilidade na gestão de ocorrências, servindo como base para reuniões pedagógicas e tomadas de decisão.
 
